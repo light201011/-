@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "多用工具包",
+    "description": "作者:§lFasterYard51037",
+    "uuid": "0e6bc13f-4fab-463f-bf10-a8be2ef591f0",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "7807f855-db55-4878-b4ad-e7701f1cd98d",
+      "entry": "scripts/JSMAIN.js",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "使游戏能识别此包为行为包",
+      "type": "data",
+      "uuid": "b24cd5fc-c2cc-403e-92ac-a63ffa27be77",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": ["script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.9.0-beta"
+    },
+
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}
